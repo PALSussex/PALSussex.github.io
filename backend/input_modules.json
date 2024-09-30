@@ -1,0 +1,127 @@
+{
+    "modules": {
+        "G5077E": {
+            "name": "Introduction to Cognitive Science: Minds, Machines and Consciousness"
+        },
+        "819G5": {
+            "name": "Artificial Life"
+        },
+        "G5123": {
+            "name": "Video Production Techniques"
+        },
+        "G6017": {
+            "name": "Program Analysis"
+        },
+        "G6012": {
+            "name": "Mathematical Concepts"
+        },
+        "943G5": {
+            "name": "E-Business and E-Commerce Systems"
+        },
+        "G6081": {
+            "name": "Visual Effects"
+        },
+        "G5122": {
+            "name": "Topics in the Philosophy of Cognitive Science"
+        },
+        "G5039": {
+            "name": "Introduction to Multimedia"
+        },
+        "817G5": {
+            "name": "Mathematics and Computational Methods for Complex Systems"
+        },
+        "955G5": {
+            "name": "Applied Natural Language Processing"
+        },
+        "G6066": {
+            "name": "Communication & Learning Skills"
+        },
+        "G5119": {
+            "name": "Natural Language Engineering"
+        },
+        "C8808E": {
+            "name": "Philosophical Foundations of Cognitive Science"
+        },
+        "976G5": {
+            "name": "Systems for Information Management"
+        },
+        "G5026": {
+            "name": "Human-Computer Interaction"
+        },
+        "G6082": {
+            "name": "Mathematics for Computing 1"
+        },
+        "948G5": {
+            "name": "Topics in Computer Science"
+        },
+        "G5077": {
+            "name": "The Ghost in the Machine?"
+        },
+        "823G5": {
+            "name": "Programming through Python"
+        },
+        "C8808": {
+            "name": "Philosophical Foundations of Cognitive Science"
+        },
+        "979G5": {
+            "name": "Quantum Computing"
+        },
+        "803G5": {
+            "name": "Human-Computer Interaction"
+        },
+        "G5066": {
+            "name": "Introduction to Programming"
+        },
+        "G6064": {
+            "name": "Computing Project"
+        },
+        "G6031": {
+            "name": "Databases"
+        },
+        "G5075": {
+            "name": "E-Business and E-Commerce Systems"
+        },
+        "947G5": {
+            "name": "Advanced Software Engineering"
+        },
+        "G6065": {
+            "name": "Foundation Programming"
+        },
+        "G6078": {
+            "name": "Game Design and Development"
+        },
+        "G6007": {
+            "name": "Programming Concepts"
+        },
+        "974G5": {
+            "name": "Video Production Techniques"
+        },
+        "969G5": {
+            "name": "Algorithmic Data Science"
+        },
+        "G6077": {
+            "name": "Introduction to Computer Security"
+        },
+        "G6080": {
+            "name": "Programming for 3D"
+        },
+        "G5035": {
+            "name": "Compilers and Computer Architecture"
+        },
+        "826G5": {
+            "name": "Intelligence in Animals and Machines"
+        },
+        "G5038": {
+            "name": "Individual Project"
+        },
+        "973G5": {
+            "name": "Visual Effects"
+        },
+        "G6021": {
+            "name": "Comparative Programming"
+        },
+        "G6019": {
+            "name": "Knowledge & Reasoning"
+        }
+    }
+}

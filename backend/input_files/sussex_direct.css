@@ -1,0 +1,254 @@
+/*/////////////////////////////////////// SUB NAV DROPDOWN AND LOGOUT ///////////////////////////////////////*/
+
+#sub_nav_dropdown {
+	clear: both;
+	width: 100%;
+	margin: 0;
+	background: #0BA0C8 url(../../../images/internal/corners/sub_nav/main/sub_nav_top_left_corner.gif) no-repeat top left;
+	height: 30px;
+	font-size: 1.1em;
+	}
+	
+#sub_nav_dropdown ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	float: left;
+	}
+
+#sub_nav_dropdown li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	
+#sub_nav_dropdown li a {
+	padding: 8px 6px 9px 6px;
+	line-height: 31px;
+	color: #fff;
+	font-weight: normal;
+	}
+	
+#sub_nav_dropdown ul li a.sub_nav_first_link:hover, #sub_nav_dropdown li a.sub_nav_first_link_active, #sub_nav_dropdown li a.sub_nav_first_link_on {
+	background: #5AB9CF url(../../../images/internal/corners/sub_nav/main/sub_nav_top_left_corner_hover.gif) no-repeat top left;
+	cursor: pointer;
+	}
+	
+#sub_nav_dropdown  li a:hover, #sub_nav_dropdown li a.sub_nav_active, #sub_nav_dropdown li a.sub_nav_on  {
+	text-decoration: none;
+	background: #5AB9CF;
+	cursor: pointer;
+	}
+	
+#sub_nav_dropdown a.logout {
+	line-height: 0.8em;
+	background: #0BA0C8;
+	float: right;
+	text-align: right;
+	color: #FFFFFF;	
+	padding: 9px 5px 11px 5px;
+	}
+	
+#sub_nav_dropdown a.logout:hover {
+	background: #5AB9CF;
+	text-decoration: none;
+	}
+
+/*///////////////////////////////////////////// SUB NAV 2 ///////////////////////////////////////////*/
+
+.sub_nav_2 {
+	z-index: 100;
+	width: 150px;
+	background: #5AB9CF;
+	color: #FFFFFF;
+	display: none;
+	position: absolute;
+	}
+	
+.sub_nav_2 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+
+.sub_nav_2 li {
+	padding: 0;
+	margin: 0;
+	}
+	
+.sub_nav_2  ul li a.down_arrow {
+	background: #5AB9CF;
+	color: #FFFFFF;
+	}
+	
+.sub_nav_2  ul li a:hover.down_arrow {
+	background: #81b8c7;
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFFFFF;
+	cursor: pointer;
+	}
+
+.sub_nav_2 li a {
+	width: 140px;
+	display: block;
+	color: #fff;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	padding: 4px;
+	color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	font-weight: normal;
+	}
+
+.sub_nav_2 ul li a:hover, .sub_nav_2 ul li a.sub_nav_2_active {
+	background: #81b8c7;
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFFFFF;
+	cursor: pointer;
+	}
+	
+small.sd_sub_sub_link {
+	position: absolute;
+	right: 3px;
+	}
+	
+/*///////////////////////////////////////////// SUB NAV 3 ////////////////////////////////////////////*/
+	
+.sub_nav_3 {
+	background: #8ec4d2;
+	color: #FFFFFF;
+	display: none;
+	}
+	
+.sub_nav_3 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+
+.sub_nav_3 li {
+	padding: 0;
+	}
+
+.sub_nav_3 li a {
+	width: 124px;
+	color: #fff;
+	font-size: 1.1em;
+	color: #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	line-height: 1.3em;
+	padding-left: 20px;
+	}
+
+.sub_nav_3 ul li a:hover, .sub_nav_3 ul li a.active {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #FFFFFF;
+	background: #8ec4d2;
+	cursor: pointer;
+	}
+
+/*////////////////////////////////////////// NOSCRIPT NAV ///////////////////////////////////////////*/	
+	
+noscript#noscript_nav {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	}
+	
+noscript#noscript_nav ul {
+	list-style-type: none;
+	color: #FFFFFF;
+	height: 25px;
+	font-size: 1.1em; 
+	background: #5AB9CF;
+	}
+	
+noscript#noscript_nav ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	
+noscript#noscript_nav ul li a {
+	line-height: 2.2em;
+	padding: 5px 3px 7px 3px;
+	color: #FFFFFF;
+	}
+	
+noscript#noscript_nav ul li a:hover, noscript#noscript_nav ul li a.active {
+	padding: 5px 3px 7px 3px;
+	color: #FFFFFF;
+	background: #6DA4AF;
+	}
+	
+noscript#noscript_nav ul li a.noscript_down_arrow {
+	background: #5AB9CF url(../../../images/internal/sussex_direct/down_arrow.gif) no-repeat right center;
+	padding-right: 16px;
+	}
+	
+noscript#noscript_nav ul li a:hover.noscript_down_arrow, noscript#noscript_nav ul li a.down_arrow_active  {
+	background: #6DA4AF url(../../../images/internal/sussex_direct/down_arrow_two.gif) no-repeat right center;
+	padding: 5px 16px 7px 3px;
+	color: #FFFFFF;
+	}
+	
+/*////////////////////////////////////////// NOSCRIPT NAV 2 ///////////////////////////////////////////*/		
+	
+noscript#noscript_nav #noscript_nav_2 {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	}
+	
+noscript#noscript_nav #noscript_nav_2 ul {
+	list-style-type: none;
+	color: #FFFFFF;
+	height: 25px;
+	font-size: 1.1em; 
+	background: #6DA4AF;
+	}
+	
+noscript#noscript_nav #noscript_nav_2 ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	
+noscript#noscript_nav #noscript_nav_2 ul li a {
+	line-height: 2.2em;
+	padding: 5px 3px 7px 3px;
+	color: #FFFFFF;
+	}
+	
+noscript#noscript_nav #noscript_nav_2 ul li a:hover, noscript#noscript_nav #noscript_nav_2 ul li a.active {
+	padding: 5px 3px 7px 3px;
+	color: #FFFFFF;
+	background: #77B3BF;
+	}
+	
+noscript#noscript_nav #noscript_nav_2 ul li a.noscript_down_arrow {
+	background: #5AB9CF url(../../../images/internal/sussex_direct/down_arrow.gif) no-repeat right center;
+	padding-right: 16px;
+	}
+	
+noscript#noscript_nav #noscript_nav_2 ul li a:hover.noscript_down_arrow, noscript#noscript_nav #noscript_nav_2 ul li a.down_arrow_active  {
+	background: #77B3BF url(../../../images/internal/sussex_direct/down_arrow_two.gif) no-repeat right center;
+	padding: 5px 16px 7px 3px;
+	color: #FFFFFF;
+	}
+	
+@media print {
+	#topright_nav, #main_nav, #sub_nav_dropdown, #breadcrumb {
+    display: none !important;
+ 	}
+	
+	#logo { 
+	margin-bottom: 2em;
+	}
+}

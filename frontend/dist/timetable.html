@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <script src="js/timetable.js"></script>
+    <title class="title">Loading... | PAL</title>
+</head>
+
+<body class="bg-black">
+    <div class="bg-black">
+        <header class="absolute inset-x-0 top-0 z-50">
+            <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+                <div class="flex lg:flex-1">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Informatics PAL</span>
+                        <img class="h-16 w-auto" src="/frontend/assets/pal-logo.webp" alt="Informatics PAL logo">
+                    </a>
+                </div>
+            </nav>
+            <div id="content" class="relative isolate px-6 lg:px-8 text-white">
+
+                <h1 class="text-4xl font-bold tracking-tight title my-3">Loading...</h1>
+                <div class="p-4 border-2 outline-white">
+                    <div class="font-mono p-2 text-sm bg-black outline outline-2 outline-white/50 text-white rounded-md"
+                        id="active-filters">
+                        <div class="italic text-white/50">No filters applied</div>
+                    </div>
+                    <div class="flex gap-4 filter-setup">
+                        <div class="filter-container rounded-md p-5 bg-black2">
+                            <div class="text-sm p-2 uppercase font-mono" for="timetable-module">Module<br></div>
+                            <select
+                                class="font-mono px-4 py-3 rounded-md bg-black text-white border-2 outline-white w-60"
+                                name="timetable-module" id="timetable_module_form">
+                                <!-- build this in Javascript-->
+                            </select>
+                            <br><br>
+                            <a href="#" onclick="addModuleFilter()"
+                                class="rounded-md bg-indigo-600 px-1.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                name="">Add module filter</a>
+                        </div>
+                        <div class="filter-container rounded-md p-5 bg-black2">
+                            <div class="text-sm p-2 uppercase font-mono" for="timetable-cohort">Cohort<br></div>
+                            <select
+                                class="font-mono px-4 py-3 rounded-md bg-black text-white border-2 outline-white w-60"
+                                name="timetable-module" id="timetable_cohort_form">
+                            </select>
+                            <br><br>
+                            <a href="#" onclick="addGroupFilter()" 
+                                class="rounded-md bg-indigo-600 px-1.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                name="">Add cohort filter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="timetable flex pt-4  rounded-full">
+                    <table class="table-fixed w-full outline-white rounded-full" style="padding: 5px; border-radius: 10px;">
+                        <thead>
+                            <tr class="font-mono bg-gray-900">
+                                <th class="p-4">Time</th>
+                                <th class="p-4">Monday</th>
+                                <th class="p-4">Tuesday</th>
+                                <th class="p-4">Wednesday</th>
+                                <th class="p-4">Thursday</th>
+                                <th class="p-4">Friday</th>
+                            </tr>
+                        </thead>
+                        <tbody id="timetable_body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+                aria-hidden="true">
+                <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+                </div>
+            </div>
+    </div>
+    </div>
+    <div class="style: display:none;" id="row_template">
+    </div>
+</body>
+
+</html>

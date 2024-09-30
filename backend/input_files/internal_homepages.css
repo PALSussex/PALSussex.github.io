@@ -1,0 +1,451 @@
+/*/////////////////////////////////////// BANNER IMAGE /////////////////////////////////////*/
+	
+#col_left_banner_img {
+	position: absolute;
+	margin: 0 0 20px 0;
+	height: 200px;
+	width: 420px;
+	}
+	
+.corner {
+	background: transparent url(/includes/images/external/corners/banner/banner_corner_top_right.png) top right no-repeat;
+	height: 11px;
+	width:11px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	}
+
+	
+#col_left_banner_img p.banner {
+	position: absolute;
+	bottom: -5px;
+	left: -5px;
+	height: 30px;
+	width: 420px;
+	background: url(../../../images/internal/banner/banner_img_text_bg.png) repeat-x bottom left;
+	}
+	
+p.banner a {
+	font-family: georgia;
+	color: #FFFFF6;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	display: block;
+	padding: 0 0 0 5px;
+	text-decoration: none;
+	}
+	
+p.banner a:hover {
+	color: #FFFFF6;
+	text-decoration: none;
+	}
+	
+#col_left_banner_img_clear_bottom {
+	height: 220px;
+	}
+
+/*//////////////////////////////// HOMEPAGE HEADERS /////////////////////////////////////*/
+	
+.box_header {
+	margin: 0;
+	padding: 5px 0 5px 5px;
+	font-size: 1.2em;
+	font-weight: normal;
+	line-height: 1em;
+	color: #fff;
+	background: #0BA0C8 url(../../../images/internal/header_backgrounds/h1_bg.jpg) no-repeat top right;
+	}
+	
+.news_item h3, .events_item h3 {
+	clear: right;
+	color: #08758F;
+	font-weight: bold;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	margin: 15px 0 0 0;
+	padding: 0 0 3px 0;
+	border-bottom: 1px dotted #9F9F9F;
+	}
+
+/*//////////////////////////////// HOMEPAGE BLOCKS LINKS /////////////////////////////////////*/
+	
+p.view_all {
+	clear: right;
+	font-size: 1em;
+	color: #09829F;
+	text-align: right;
+	border-top: 1px solid #cccccc;
+	margin: 15px 0 0 0;
+	padding: 8px 20px 3px 0;
+	line-height: 1.8em;
+	background: url(../../../images/icons/view_all.gif) no-repeat right;
+	}
+
+p.view_all a, p.add_item a {
+	text-decoration: none;
+	}
+	
+p.add_item {
+	clear: right;
+	font-size: 1em;
+	color: #09829F;
+	text-align: right;
+	margin: -10px 0 5px 0;
+	padding: 6px 20px 3px 0;
+	line-height: 1.8em;
+	background: url(../../../images/icons/script_edit.gif) no-repeat right;
+	}
+	
+p.view_all a:hover, p.add_item a:hover {
+	text-decoration: underline;
+	}
+
+p.view_rss {
+	font-size: 1em;
+	color: #09829F;
+	text-align: right;
+	margin: 0px 0 5px 0;
+	padding: 6px 20px 3px 0;
+	background: url(../../../images/icons/feed.gif) no-repeat right;
+	}
+	
+p.news_events_rss {
+	margin: -38px 0 5px 0;
+	text-align: right;
+	}
+	
+p.news_events_rss a {
+	background: url(../../../images/icons/feed.gif) no-repeat top right;	
+	padding: 2px 20px 3px 0;
+	height: 20px;
+	margin-left: 10px;
+	font-size: 0.9em;
+	text-decoration: none;
+	}
+	
+/*////////////////////////////////// NEWS ITEMS /////////////////////////////////////////*/
+	
+.news_item {
+	margin: 10px 0 5px 0;
+	padding: 0;
+	min-height: 100px;
+	/* IE6 hack  */
+	height: auto !important;
+	height: 100px;
+	}
+	
+.news_item hr {
+	border: 1px solid #DDDDDD;
+	margin-top: 17px;
+	}
+	
+p.date {
+	font-size: 0.9em;
+	font-weight: normal;
+	margin: 3px 0 5px 0;
+	color: #07687F;
+	line-height: 1.5em;
+	text-align: left;
+	}
+	
+.news_image {
+	float: right;
+	margin: 5px 0 5px 5px;
+	}
+	
+p.news_image_caption {
+	margin: 5px 0px 0px; 
+	font-size: 0.9em;
+	}	
+	
+a:hover .news_image {
+	border: 1px solid #CCCCCC;
+	}
+
+p.read_more {
+	font-size: 0.9em;
+	color: #09829F;
+	margin: 5px;
+	padding: 5px 0 4px 20px;
+	background: url(../../../images/icons/read_more.gif) no-repeat left;
+	}
+	
+.sharelinks iframe, .sharelinks script, .sharelinks a {
+    float: left;
+    height: 21px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.sharelinks a {
+    margin-right: 15px;
+}
+
+.sharelinks span.db-wrapper { /* digg button */
+    margin-left: 15px;
+}
+
+	
+/*////////////////////////////// EVENTS ITEMS  ///////////////////////////////////*/
+
+.events_item {
+	margin: 10px 0 10px 0;
+	padding: 0;
+	min-height: 80px;
+	/* IE6 hack  */
+	height: auto !important;
+	height: 80px;
+	}
+
+.events_item hr {
+	border: 1px solid #DDDDDD;
+	margin-top: 17px;
+	}
+
+.events_item p.events_info {
+	color: #07687F;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	margin: 5px 0 5px 0;
+	}
+	
+.events_item .date {
+	float: right;
+	height: 52px;
+	width: 48px; 
+	margin: 5px 0 10px 0;
+	background: url(../../../images/internal/date.gif) no-repeat;
+	}
+
+.events_item .date p.month, .events_item .date p.year  {
+	color:#FFFFFF;
+	font-size:1.1em;
+	line-height:0.9em;
+	margin:0 1px 0 0;
+	padding: 3px 0 6px;
+	text-align:center;
+	text-transform:uppercase;
+	}
+	
+.events_item .date p.day {
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Verdana,Tahoma,sans-serif;
+	font-size:1.3em;
+	line-height:0.8em;
+	margin:0 0 0;
+	padding:0;
+	text-align:center;
+	}
+
+.events_item .date p.year {
+	font-size:0.8em;
+	line-height:1em;
+	}
+
+select.quick_links {
+	margin: 0;
+	width: 152px;
+	border: 1px solid #CCCCCC;
+	}
+	
+.event_meta p, .news_meta p {
+	margin: 20px 0;
+	}
+
+/*////////////////////////////////// SMALLADS //////////////////////////////////////////////*/
+
+.smallad_item {
+	margin: 0 0 20px 0;
+	}
+
+.smallad_item p {
+	margin: 0 0 0 0;
+	}
+
+.smallad_item p.date {
+	margin: 10px 0 0 0;
+	}
+	
+/*//////////////////////////////// RIGHT COLUMB IMAGES /////////////////////////////////////*/
+	
+.col_right_img {
+	width: 144px;
+	padding: 3px;
+	margin: 15px 0 0 0;
+	border: 1px solid #EEEEEE;
+	-webkit-box-shadow: 1px 1px 2px #eee;
+	-moz-box-shadow: 1px 1px 2px #eee;
+	}
+	
+.col_right_img p.caption {
+	font-size: 1em;
+	margin: 3px 0 0 0;
+	padding: 0;
+	background: url(../../../images/internal/right_col_images/right_col_images_arrow.gif) no-repeat bottom right;
+	}
+	
+.col_right_img:hover {
+	border: 1px solid #cccccc;
+	text-decoration: none;
+	background: #f8fdff;
+	}
+	
+/*//////////////////////////////////////// PAGINATOR ///////////////////////////////////////*/
+
+.paginationControl {
+	clear: right;
+	padding: 0 0 20px 0;
+	margin: 0 0 15px 0;
+	}
+
+p.paginationCount {
+	float: left;
+	font-size: 0.9em;
+	margin: 5px 0  0;
+	color: #09829F;
+	}
+
+p.paginationSelection {
+	float: right;
+	font-size: 0.9em;
+	margin: 5px 0 0 0;
+	color: #09829F;
+	}
+
+p.paginationSelection a {	
+	margin: 0 0 0 1px;
+	padding: 0 2px 1px 2px;
+	text-decoration: none;
+	}
+
+p.paginationSelection a:hover, p.paginationSelection strong, p.paginationSelection a:focus {	
+	background: #09829F;
+	font-weight: normal;
+	padding: 0 2px 1px 2px;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+/*////////////////////////////// EVENTS DATEPICKER OVERRIDES //////////////////////////////*/
+
+.ui-datepicker {
+	width: 200px;
+	padding: 0;
+	}
+
+/*
+.ui-widget-content {
+	border: none;
+	}
+*/
+
+.ui-widget-header {
+	color: #244857;
+	background: #E9E9E9;
+	height: 22px;
+	}
+	
+.ui-datepicker .ui-datepicker-title {
+	line-height: 1.6em;
+	}
+	
+table.ui-datepicker-calendar {
+	color: #244857;
+	}
+	
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+	cursor: pointer;
+	}
+	
+/*////////////////////////////////////////// LOGIN /////////////////////////////////////////*/
+
+form.login {
+	width: 144px;
+	padding: 3px;
+	margin: 0 0 10px 0;
+	border: 1px solid #EEEEEE;
+	}
+
+input.inputbox {
+	margin: 0 0 3px 0; 
+	padding: 3px 0 0 0;
+	width: 142px;
+	height: 20px;
+	border: 1px solid #EEEEEE;
+	font-size: 1em;
+	color: #444;
+	}
+	
+input.submitbutton {
+	margin:  0 0 3px 0; 
+	padding: 0 0 2px 0;
+	width: 144px;
+	height: 20px;
+	border: 1px solid #EEEEEE;
+	font-size: 1.1em;
+	background: #5AB9CF;
+	color: #FFFFFF;
+	cursor: pointer;
+	}
+
+form p.login {
+	font-size: 1em;
+	margin: 3px 0 0 0;
+	padding: 0;
+	line-height: 1.3em;
+	}
+
+/*////////////////////////////////////// PEOPLE LISTS /////////////////////////////////////*/
+
+h3.people-header {
+	border-bottom: 2px solid #D8DFEA;
+	margin-bottom: 1em;
+	padding-bottom: 0.3em;
+}
+
+h3.people-header span {
+	display: block;
+	float: right;
+}
+
+h3.people-header span a {
+	font-size: 90%;
+	text-decoration: none;
+}
+
+span.az-no-entry {
+	color: #ccc;
+}
+
+div.vcard {
+	margin: 0 0 1.5em 0;
+	padding: 0 0 1em 0;
+	border: 0;
+}
+
+div.vcard img {
+	border:1px solid #456370;
+	float: left;
+	margin-top: 3px;
+}
+
+div.vcard p {
+	margin-left: 65px;
+}
+
+a.vcard, a.vcard-mobile {
+	background: #fff url(/includes/images/icons/vcard.png) no-repeat;
+	display: block;
+	height: 16px;
+	font-size: 80%;
+	line-height: auto !important;
+	padding: 1px 0 0 20px;
+}
+
+a.vcard-mobile {
+	background-image: url(/includes/images/icons/phone.png);
+}

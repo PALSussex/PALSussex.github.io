@@ -1,0 +1,31 @@
+{
+    "name": "Autumn Semester | Informatics",
+    "sessions": [
+        {
+            "type": "Lecture",
+            "group": "4",
+            "module_code": "G5077E",
+            "building": "Fulton Building",
+            "room": "Fulton A",
+            "day": 0,
+            "start_time": 9,
+            "duration": 1
+        },
+        {
+            "type": "Laboratory",
+            "group": "5",
+            "module_code": "G6031",
+            "building": "Chichister 1",
+            "room": "CHI 017",
+            "day": 1,
+            "start_time": 10,
+            "duration": 2
+        }
+    ],
+    "modules": {
+        "G5077E": {
+            "name": "Introduction to Cognitive Science: Minds, Machines and Consciousness",
+            "level": 4
+        }
+    }
+}
